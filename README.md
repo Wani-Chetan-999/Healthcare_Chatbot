@@ -1,6 +1,6 @@
 # **Healthcare Chatbot**
 <div align="center">
-    <img src="chatbot.png" alt="Chatbot Interface" width="700">
+    <img src="Images/chatbot.png" alt="Chatbot Interface" width="700">
 </div>
 
 ---
@@ -97,10 +97,20 @@ Healthcare_Chatbot/
 
 ## **Screenshots**
 ### Chatbot Interface
-<img src="screenshots/chatbot_interface.png" alt="Chatbot Interface" width="500" height="300">
+<img src="screenshots/Main Window.png" alt="Chatbot Interface" width="500" height="300">
 
 ### Health Prediction Screen
-<img src="screenshots/chatbot_interface.png" alt="Chatbot Interface" width="500" height="300">
+<img src="screenshots/about.png" alt="Chatbot Interface" width="500" height="300">
+
+### Health Prediction Screen
+<img src="screenshots/get diganose.png" alt="Chatbot Interface" width="500" height="300">
+
+### Health Prediction Screen
+<img src="screenshots/result and precaustions.png" alt="Chatbot Interface" width="500" height="300">
+
+### Health Prediction Screen
+<img src="screenshots/symptoms.png" alt="Chatbot Interface" width="500" height="300">
+
 
 
 chatbot.png
