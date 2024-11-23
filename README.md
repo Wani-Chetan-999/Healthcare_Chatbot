@@ -1,4 +1,9 @@
 # **Healthcare Chatbot**
+<div align="center">
+    <img src="chatbot.png" alt="Chatbot Interface" width="700">
+</div>
+
+---
 
 ## **Description**
 The Healthcare Chatbot is an intelligent desktop-based application designed to assist users in identifying potential health conditions based on their symptoms. It leverages machine learning models and OpenAI's GPT for providing insightful responses and suggestions. The project uses Tkinter for the graphical user interface and various Python libraries for data handling and processing.
@@ -91,8 +96,14 @@ Healthcare_Chatbot/
 ---
 
 ## **Screenshots**
-(Add screenshots of your chatbot interface here to help others visualize the project.)
+### Chatbot Interface
+<img src="screenshots/chatbot_interface.png" alt="Chatbot Interface" width="500" height="300">
 
+### Health Prediction Screen
+<img src="screenshots/chatbot_interface.png" alt="Chatbot Interface" width="500" height="300">
+
+
+chatbot.png
 ---
 
 ## **Contributing**
