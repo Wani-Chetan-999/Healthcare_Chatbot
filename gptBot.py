@@ -13,8 +13,7 @@ from sklearn.svm import SVC
 import csv
 import warnings
 import openai
-openai.api_key = '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'
-
+openai.api_key = os.getenv("OPENAI_API_KEY")
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 class GptBot:
