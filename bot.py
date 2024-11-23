@@ -2,8 +2,7 @@ import openai
 import os
 
 # Set your OpenAI API key here (or use environment variables)
-openai.api_key = "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"  # Replace with your actual OpenAI API key
-
+openai.api_key os.getenv("OPENAI_API_KEY")
 def get_gpt_response(prompt):
     try:
         # Make a request to the OpenAI API for chat completion
