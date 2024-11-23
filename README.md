@@ -97,13 +97,13 @@ Healthcare_Chatbot/
 
 ## **Screenshots**
 ### Chatbot Interface
-<img src="screenshots/Main Window.png" alt="Chatbot Interface" width="500" height="300">
+<img src="Screenshots/Main Window.png" alt="Chatbot Interface" width="500" height="300">
 
 ### Health Prediction Screen
-<img src="screenshots/about.png" alt="Chatbot Interface" width="500" height="300">
+<img src="Screenshots/about.png" alt="Chatbot Interface" width="500" height="300">
 
 ### Health Prediction Screen
-<img src="screenshots/get diganose.png" alt="Chatbot Interface" width="500" height="300">
+<img src="Screenshots/Get Dignose.png" alt="Chatbot Interface" width="500" height="300">
 
 ### Health Prediction Screen
 <img src="screenshots/result and precaustions.png" alt="Chatbot Interface" width="500" height="300">
