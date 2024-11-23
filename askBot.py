@@ -49,7 +49,7 @@ class AskBot:
         style.configure("TEntry", fieldbackground="#f0f0f0", font=("Helvetica", 11))
         style.configure("TButton", font=("Helvetica", 11), background="#4CAF50", foreground="white")
 
-        img = Image.open("logo4_GPT-removebg.png")
+        img = Image.open(r"Images\logo4_GPT-removebg.png")
         img = img.resize((90, 90), Image.LANCZOS)
         self.photoimg = ImageTk.PhotoImage(img)
 
@@ -59,8 +59,8 @@ class AskBot:
         title_lbl = Label(self.root, text="WelCome to Ask BOT", font=("times new roman", 30, "bold"), bg="#1E90FF", fg="white")
         title_lbl.place(x=120, y=20, width=670, height=80)
         
-        self.bot_photo = self.load_icon("bot1.png")
-        self.user_photo = self.load_icon("user1.png")
+        self.bot_photo = self.load_icon(r"Images\bot1.png")
+        self.user_photo = self.load_icon(r"Images\user1.png")
 
         
         # Reduce the size of the TFrame
@@ -69,7 +69,7 @@ class AskBot:
         main_frame.rowconfigure(0, weight=2)
         main_frame.grid_columnconfigure(0, minsize=679)
 
-        img1 = Image.open("send 3.png")
+        img1 = Image.open(r"Images\send 3.png")
         img1= img1.resize((40, 20), Image.LANCZOS)
         self.photoimg1 = ImageTk.PhotoImage(img1)
         # Reduce the size of the TFrame
@@ -103,8 +103,8 @@ class AskBot:
         # Bind the send button to the return key
         self.root.bind('<Return>', lambda event=None: self.send_message())
        
-        self.user_icon = self.load_icon("user_icon.png")
-        self.bot_icon = self.load_icon("bot_icon.png")
+        self.user_icon = self.load_icon(r"Images\user_icon.png")
+        self.bot_icon = self.load_icon(r"Images\bot_icon.png")
         self.nameask = 0  # Initialize as instance attribute
         self.disease_input = ""
         self.num_days = 0

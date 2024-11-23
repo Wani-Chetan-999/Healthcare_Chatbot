@@ -20,7 +20,7 @@ class About:
         self.root.geometry("800x700")
         self.root.configure(bg="#263238")
 
-        img = Image.open("logo4_GPT-removebg.png")
+        img = Image.open(r"Images\logo4_GPT-removebg.png")
         img = img.resize((90, 90), Image.LANCZOS)
         self.photoimg = ImageTk.PhotoImage(img)
 
@@ -32,7 +32,7 @@ class About:
         
         about_text = Label(self.root,text="1) Symptom Assessment. \n2) Healthy Living Advice. \n3) Medical Support. \n4) Potential Dignosis as per Symptoms. \n5) Advance Precautions",font=("times new roman", 16, "bold"),fg="white",bg="#263238" ,justify="left")   
         about_text.place(x=10, y=130)
-        img1 = Image.open("about1.png")
+        img1 = Image.open(r"Images\about1.png")
         img1 = img1.resize((800, 420), Image.LANCZOS)
         self.photoimg1 = ImageTk.PhotoImage(img1)
         image_label1 = Label(self.root, image=self.photoimg1, bg="#263238")

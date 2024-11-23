@@ -13,7 +13,7 @@ class MainWin:
         self.root.title("Chatbot")
         self.root.geometry("800x700")
         self.root.configure(bg="#263238")
-        img = Image.open("logo4_GPT-removebg.png")
+        img = Image.open(r"Images\logo4_GPT-removebg.png")
         img = img.resize((90, 90), Image.LANCZOS)
         self.photoimg = ImageTk.PhotoImage(img)
 
@@ -36,7 +36,7 @@ class MainWin:
         b4.place(x=626,y=115,width=151,height=35)
 
 
-        img2 = Image.open("frontpage.jpg")
+        img2 = Image.open(r"Images\frontpage.jpg")
         img2 = img2.resize((800, 600), Image.LANCZOS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
         label2 = tk.Label(self.root, image=self.photoimg2)

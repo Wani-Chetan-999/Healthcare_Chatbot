@@ -11,6 +11,7 @@ from sklearn.tree import DecisionTreeClassifier, _tree
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 import csv
+import os
 import warnings
 import openai
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -52,7 +53,7 @@ class GptBot:
         style.configure("TEntry", fieldbackground="#f0f0f0", font=("Helvetica", 11))
         style.configure("TButton", font=("Bahnschrift Condensed", 11), background="blue", foreground="black")
 
-        img = Image.open("logo4_GPT-removebg.png")
+        img = Image.open(r"Images\logo4_GPT-removebg.png")
         img = img.resize((90, 90), Image.LANCZOS)
         self.photoimg = ImageTk.PhotoImage(img)
 
@@ -62,7 +63,7 @@ class GptBot:
         title_lbl = Label(self.root, text="AI Smart Asssitant", font=("times new roman", 30, "bold"), bg="#1E90FF", fg="white")
         title_lbl.place(x=120, y=20, width=670, height=80)
 
-        img1 = Image.open("send 3.png")
+        img1 = Image.open(r"Images\send 3.png")
         img1= img1.resize((40, 20), Image.LANCZOS)
         self.photoimg1 = ImageTk.PhotoImage(img1)
         # Reduce the size of the TFrame
