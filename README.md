@@ -99,7 +99,7 @@ Healthcare_Chatbot/
 ## **Screenshots**
  - **Chatbot Interface**
 <div align="center">
-<img src="Screenshots/Main Window.png" alt="Chatbot Interface" width="700" >
+<img src="Screenshots/main.png" alt="Chatbot Interface" width="700" >
 </div>
     
  - **Get Dignose Screen**
